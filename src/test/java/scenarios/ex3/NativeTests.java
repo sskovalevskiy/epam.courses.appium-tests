@@ -1,8 +1,5 @@
 package scenarios.ex3;
 
-import android.content.Context;
-import android.graphics.Bitmap;
-import android.view.inputmethod.InputMethodManager;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;

@@ -16,7 +16,6 @@ public class WebTests extends TestsSettings {
     @Test(groups = "web", description = "Open website, test URL & page title")
     public void webTest() {
         driverSingle.get(SUT);
-// this always ends OK; it's a drawback.
         driverWait().until(ExpectedConditions.urlToBe(SUT));
 
         Assert.assertEquals(SUT, driverSingle.getCurrentUrl());
